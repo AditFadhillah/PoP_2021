@@ -1,0 +1,21 @@
+# 2i - generelle kommentarer og overholdelse af afleveringsformat
+
+Generelt fin aflevering. Der skal dog ikke være mellemrum i filnavnet. 
+Det er ikke nødvendigt med opgavetekst i rapporten.
+
+# 2i0
+
+God beskrivelse af interactive mode og compile-mode. Når vi bruger 'fsharpi' på en fil er vi ikke i interactive mode.
+Kig evt. på kapitel 3.2 i fsharpnotes.
+God diskussion af fordele og ulemper.
+
+# 2i1
+
+Din F# kode gør det forventede. Godt arbejde!
+Du printer strengene ud, og det er helt fint, selvom det ikke er nødvendigt. 
+Jeg savner en forklaring på hvorfor der produceres et output.
+
+# 2i2
+
+Din tabel er korrekt udfyldt. Godt arbejde!
+Dine udregninger er korrekte. Rigtig fint.
