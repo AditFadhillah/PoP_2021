@@ -1,0 +1,37 @@
+# 3g - generelle kommentarer og overholdelse af afleveringsformat
+
+Udmaerket aflevering. Se kommentarer til genaflevering. 
+Jeres README skal beskrive hvordan man koerer JERES kode. Ikke hvordan man laver et F#-program generelt. 
+Ellers korrekt afleveret. 
+Vær opmaerksom på forskellen mellem kommentarer inden for vs. udenfor dokumentationsstandarden. Se Jons video og slides eller se kapitel 7 i bogen.
+
+# 3g0a
+
+Jeres funktion bruger korrekt et while-loop med to variable til at udregne summen fra 1..n. Super!
+Denne opgave skal ikke tage et input fra keyboard. I denne opgave skal I kun skrive selve funktionen. 
+I skal bruge funktionerne fra opgave a og b senere i afleveringen. 
+Jeres funktion returnerer 0 for n-værdier mindre end 1. super!
+Fint med en summary inden funktionen.
+Jeres summary inden funktionen er rigeligt dokumentation - det er ikke en fejl som sådan at I har flere kommentarer,
+men de fleste er unødvendige kommentarer. I behøver ikke forklare hvad en while-loekke er, for eksempel.
+
+# 3g0b
+
+Jeres funktion bruger formlen til udregne summen fra 1..n korrekt.
+I opgave b skal I ikke printe eller tage input fra keyboard.
+En linje summary er fin dokumentation.
+
+# 3g0c
+
+Jeres program laeser input fra brugeren korrekt.
+I bytter om på Sum og simpleSum - kald i stedet de funktioner, I har defineret i opgaverne a og b.
+
+# 3g0d
+
+Jeres program benytter et for-loop til at printe tabellen. Super!
+Igen bytter I om på sum og simplesum. Kald i stedet de funktioner, I har defineret i opg a og b
+I må gerne lave en summary inden jeres for loop. Det er vigtigere end inline kommentarer.
+
+# 3g0e
+
+Fint, men lav linjeskift.
