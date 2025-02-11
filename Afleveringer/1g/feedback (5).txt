@@ -1,0 +1,17 @@
+# 1g - generelle kommentarer og overholdelse af afleveringsformat
+
+Rigtig fin aflevering. Afleveret i korrekt format. 
+Jeres .tex fil kan også compiles - måske tag et kig på de warnings, den giver. 
+Skriv gerne hold- og gruppenummer på forsiden samt jeres KU-id'er.
+
+# 1g0 - 10 Scratch blokke
+
+Rigtig fint! Fint dokumenteret process og gode overvejelser. 
+Gode figurer og beskrivelser.
+
+# 1g1 - Spillet
+
+Rigtig fint spil, der opfylder alle kravene. Smukt!
+I beskriver også programmet grundigt i rapporten og har link til spillet.
+Figurene er beskrevet udmærket og I bruger referencer - det er godt at se. 
+God beskrivelse af spillets gang.
