@@ -1,0 +1,36 @@
+# 6i - generelle kommentarer og overholdelse af afleveringsformat
+
+God aflevering!
+
+# 6i0
+
+[+] Din signatur for funktionen cfrac2float er korrekt.
+[+] Din dokumentation af cfrac2float er fin, men du har params med som ikke er params.
+Params er kun funktionsargumenter  - her lst. x og xs skal ikke stå som param. 
+Funktionen er korrekt og du benytter rekursion. Godt!
+I stedet for at lave et tjek på listens længde kan du bruge pattern match.
+Det kan matches som ´[x]´.
+
+# 6i1
+
+[+] Din signatur for funktionen cfrac2float er korrekt.
+[+] Din dokumentation af cfrac2float er fin, men du har params med som ikke er params.
+Params er kun funktionsargumenter  - her lst.     q skal ikke stå som param. 
+Funktionen er korrekt og du benytter rekursion. Godt!. 
+[+] Du sammenligner `ri` med en epsilon-værdi. Godt!
+
+# 6i2 - continued fractions bibliotek
+
+[+] Dit bibliotek (continuedFraction) kan oversættes (compiles) præcis som forventet.
+
+# 6i2, Test af biblioteket, cfrac2float
+
+[+] Fin opstilling af dine test.
+[+] Dine testcases er gode.
+Rigtig godt at du tester om funktionerne er inverse! Glimrende.
+
+# 6i2, Test af biblioteket, float2cfrac
+
+[+] Fin opstilling af dine test.
+[+] Dine testcases er gode.
+Igen, glimrende at du tester at de er inverse.

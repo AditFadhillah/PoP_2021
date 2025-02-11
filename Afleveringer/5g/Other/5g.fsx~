@@ -1,0 +1,10 @@
+
+let isTable (llst: 'a list list) : bool = // 'a list list betyder at elementerne i listen er lister
+   if llst.Head.IsEmpty then // <boolean> checker om den første element i listen er tomt eller ej 
+       false
+   else
+       let lst1 = List.length (List.head llst) //længden af den første element def. som lst1
+       List.forall (fun x -> List.length x = (lst1)) llst //checker om længden af alle elementer er lige så langt som lst1
+
+printfn "%b" (isTable [[1;4;4]; [1;3;4]])
+

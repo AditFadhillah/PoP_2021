@@ -1,0 +1,6 @@
+
+let arrayOfArrays = [| [| 1; 2; 3 |]; [|4; 5; 6 |] |]
+let array2d = Array2D.init 2 3 (fun row column -> arrayOfArrays.[row].[column])     
+let newArray = Array2D.init (array2d |> Array2D.length2) (array2d |> Array2D.length1) (fun r c -> array2d.[c,r])
+
+printfn "%A" newArray

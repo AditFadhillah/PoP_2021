@@ -1,0 +1,80 @@
+# 5g - generelle kommentarer og overholdelse af afleveringsformat
+
+God aflevering!
+
+# 5g0a - isTable
+
+[+] Jeres funktion er korrekt.
+[+] Jeres dokumentation af isTable følger dokumentationsstandarden.
+Det er ikke et krav at tjekke om der er tomme lister inde i, men ikke et problem at I gør det.
+
+# 5g0b - firstColumn
+
+[+] Jeres funktion er korrekt.
+[+] Jeres dokumentation af firstColumn følger dokumentationsstandarden.
+I må godt antage at inputtet er en tabel, men stadig fint at I tjekker.
+
+# 5g0c - dropFirstColumn
+
+[+] Jeres funktion er korrekt.
+[+] Jeres dokumentation af dropFirstColumn følger dokumentationsstandarden.
+Samme antagelse gælder her som ved firstColumn.
+
+# 5g0c - transposeLstLst
+
+[+] Jeres funktion er korrekt.
+[+] Jeres dokumentation af transposeLstLst følger dokumentationsstandarden nogenlunder,
+men oldlist og newlist er ikke parameters. Det er kun input, der er parameters. 
+Igen kan I antage at inputtet er en tabel.
+
+# 5g0e - isTable test
+
+[+] Fin opstilling af jeres test.
+[+] Jeres testcases er gode.
+[+] Godt I har både positive og negative test (hvor det forventede resultat er hhv. true og false)
+I kunne evt have en test med lister der ikke er lige lange,
+og en test der fejler tjekker med List.empty.
+
+# 5g0e - firstColumn test
+
+[+] Fin opstilling af jeres test.
+[+] Jeres testcases er gode.
+Når I har List.exists med, så hav en test case der tjekker om det virker efter hensigten. 
+I kunne godt have nogle cases, hvor I tester om det giver false,
+og et par ekstra tests bare for at gøre jeres TA glad
+
+# 5g0e - dropFirstColumn test
+
+[+] Fin opstilling af jeres test.
+[+] Jeres testcases er gode.
+Når I har List.exists med, så hav en test case der tjekker om det virker efter hensigten. 
+I kunne godt have nogle cases, hvor I tester om det giver false,
+og et par ekstra tests bare for at gøre jeres TA glad
+
+# 5g0e - transposeLstLst test
+
+[+] Fin opstilling af jeres test.
+[+] Jeres testcases er gode.
+Der kunne godt være flere tests.
+Når I har valgt at bruge List.exists, ville det være godt at demonstrere at det virker efter hensigten.
+
+# 5g1a - transposeArr
+
+[+] Jeres funktion er korrekt.
+[+] Jeres dokumentation af transposeArr følger dokumentationsstandarden.
+
+# 5g1b - transposeArr test
+
+[+] Fin opstilling af jeres test.
+[+] Jeres testcases er gode.
+Teknisk set bliver hele koden kørt igennem med jeres ene test, men flere kunne have været bedre.
+
+# 5g1c - diskussion af fordele og ulemper
+
+[+] Gode pointer. I bruger dog selv mutable lister i jeres transposeLstLst,
+så det modsiger lidt jeres pointe.
+
+# 5g1d - diskussion af fordele og ulemper ved funktionel vs. imperativ
+
+Omvendt - generelt er hægtede lister bedre til funktionel prog og arrays til imperativ.
+Det giver måske bedre mening hvorfor lister er bedre i funktionel prog, nu hvor vi har rekurison.
