@@ -1,0 +1,10 @@
+\documentclass{report}
+\begin{document}
+  Hello World
+
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.3\textwidth]{Hello.jpg}
+  \end{figure}
+  
+\end{document}
