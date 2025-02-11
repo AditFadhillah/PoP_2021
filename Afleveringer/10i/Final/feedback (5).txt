@@ -1,0 +1,71 @@
+# 10i - generelle kommentarer og overholdelse af afleveringsformat
+
+Super fint!
+Meget grundige tests!
+Din aflevering fejler online-ta da du har filer med, der ikke skal være der
+dll, exe, den slags.
+
+# 10i0 - Drone klassen
+
+Rigtig fint!
+I Fly behøver Length ikke være mutable. 
+I At Destination behøver du ikke have "if x then true else false",
+for udtrykket x er allerede et boolsk statement - så bare returner udtrykket x. 
+[+] Drone-klassen har en constructor med typen ((int*int)*(int*int)*int)
+[+] Drone-klassen har en Position-property (member) der returnerer (int*int)
+[+] Drone-klassen har en Destination-property (member) der returnerer (int*int)
+[+] Drone-klassen har en Speed-property (member) der returnerer int (cm per sekund)
+[+] Drone-klassen har en AtDestination-metode der tager 0 argumenter og returnerer true
+    hvis d.Position = d.Destination
+[+] Drone-klassen har en Fly-metode
+[+] Fly tager ingen argumenter
+[+] Fly opdaterer dronens position (euklidisk afstand, vektor-addition)
+[+] Fly benytter floats til udregning af ny position og konverterer ny position til afrundet (int*int)
+
+# 10i0 - Airspace klassen
+
+Super fint!
+Når du tilføjer et element til en liste, så brug prepend (dobbelt kolon)
+da det har bedre køretid end append for hægtede lister. 
+
+[+] Airspace-klassen har en constructor uden argumenter eller en constructor der tager en liste af
+    droner som argument (enten unit eller drone list)
+[+] Airspace-klassen har en Drones-property (member) der returnerer (Drone list)
+[+] Airspace-klassen har en DroneDist-metode (member) der
+    tager to drone-objekter som argument og returnerer deres afstand som int,
+    typen (Drone -> Drone -> int) eller ((Drone * Drone) -> int)
+[+] Airspace-klassen har en AddDrone-metode (member) med typen (Drone -> unit) der tilføjer
+    en drone til samling af droner, der kan tilgås via Drones-propertyen
+[+] Airspace-klassen har en FlyDrones-metode der tager 0 argumenter og kalder Fly()-metoden
+    for alle droner i det givne airspace's Drones-property
+[+] Airspace-klassen har en WillCollide-metode der tager antal minutter som argument,
+    simulerer flyvning i det givne antal sekunder, ved at kalde FlyDrones et passende
+    antal gange
+[+] WillCollide-metoden fungerer i steps, så der er et step for hvert sekund der skal simuleres
+[+] WillCollide-metoden tjekker for kollisioner mellem droner i hvert step
+[+] WillCollide opbygger en liste (eller anden collection) af kolliderede droner over alle step
+
+# 10i0 - Test af Drone klassen
+
+Glimrende!
+[+] Det testes at der kan oprettes droner
+[+] Det testes at droner kan flyve 1 step
+[+] Det testes at droner kan flyve mere end 1 step (gentagne kald til Fly())
+[+] Det testes at droner kan flyve i alle retninger (nord, syd, øst, vest)
+    Altså at både positive og negative vektor-koordinater kan håndteres
+[+] Det testes at droner kan flyve med forskellige hastigheder
+[+] Det testes at droner der har nået deres destination returnerer true ved kald til AtDestination
+
+# 10i0 - Test af Airspace klassen
+
+Super!
+[+] Det testes at der kan oprettes et airspace
+[+] Det testes at der kan tilføjes droner til et airspace og at de efterfølgende
+    findes i det givne airspace's Drones-property
+[+] Det testes at DroneDist-metoden giver korrekt resultat for mindst 3 forskellige dronepar
+[+] Det testes at FlyDrones-metoden opdaterer de enkelte droners position
+[+] Det testes at droner kan flyve mere end 1 step (gentagne kald til FlyDrones())
+[+] Det testes at WillCollide med et tomt airspace giver en tom liste som resultat
+[+] Det testes at WillCollide med en enkelt drone i airspace giver en tom liste som resultat
+[+] Det testes at WillCollide med to ikke-kolliderende droner i airspace giver en tom liste som resultat
+[+] Det testes at WillCollide med to kolliderende droner i airspace giver en liste med de to droner som resultat

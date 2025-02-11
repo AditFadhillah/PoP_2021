@@ -1,0 +1,39 @@
+# 8i - generelle kommentarer og overholdelse af afleveringsformat
+
+Rigtig god aflevering!
+Der skal ikke være imgutil-filer med. 
+Fin forståelse for rekursion og håndtering af mix-typen.
+
+# 8i0
+
+[+] Din figur figTest er korrekt
+
+# 8i1 - makePicture
+
+[+] Din makePicture genererer et .png-billede som forventet.
+[+] Din makePicture bruger ImgUtil.setPixel som forventet.
+[+] Din makePicture benytter colorAt som forventet.
+Rigtig fin løsning.
+
+# 8i2
+
+[+] Din aflevering indeholder kode der konstruerer en billedfil `figTest.png`
+
+# 8i3 - checkFigure
+
+[+] Din checkFigure kan håndtere Circle figurer
+[+] Din checkFigure kan håndtere Rectangle-figurer
+[+] Din checkFigure kan håndtere arbitrære Mix-figurer
+Rigtgig fine boolske udtryk!
+
+# 8i4 - move
+
+[+] Din move kan håndtere Circle figurer
+[+] Din move kan håndtere Rectangle-figurer
+[+] Din move kan håndtere arbitrære Mix-figurer
+
+# 8i5 - boundingBox
+
+[+] Din boundingBox kan håndtere Circle figurer
+[+] Din boundingBox kan håndtere Rectangle-figurer
+[+] Din boundingBox kan håndtere arbitrære Mix-figurer
