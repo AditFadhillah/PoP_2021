@@ -1,0 +1,24 @@
+Efter man har unzippet mappen (Aditya Fadhillah Hold 01 - 2i.zip) kan man konvertere LATEX koden til pdf gennem terminalen. 
+Man finder først stien til mappen (Aditya Fadhillah Hold 01 - 2i/) ind i terminalen.
+Ind på mappen finder man mappen (tex/), her ligger LATEX-koden. Skrive så (pdflatex main.tex) på terminalen. 
+Man kan finde den konverteret pdf-fil på den (tex/ mappen) 
+
+Step-by-step for at konvertere LATEX-koden til pdf:
+	- Unzip mappen (Aditya Fadhillah Hold 01 - 2i.zip)
+	- Gå ind på terminalen
+	- Navigere til mappen (Aditya Fadhillah Hold 01 - 2i/) på terminalen
+	- Navigere til mappen (tex/) på terminalen
+	- Taste (pdflatex main.tex) på terminalen
+
+For at køre scripten til 2i1 skal man bruge mono command prompt. Gå ind på mono command prompt, 
+Man finder derefter stien til mappen (Aditya Fadhillah Hold 01 - 2i/).
+Ind på mappen finder man mappen (src/), her ligger scripten til 2i1. Skrive derefter (fsharpc 2i1.fsx) for at compile scripten. 
+Når koden er compilet færdig skrive (mono 2i1.exe) for at køre koden. 
+
+Step-by-step for at køre koden til 2i1:
+	- Unzip mappen (Aditya Fadhillah Hold 01 - 2i.zip)
+	- Gå ind på terminalen
+	- Navigere til mappen (Aditya Fadhillah Hold 01 - 2i/) på terminalen
+	- Navigere til mappen (src/) på terminalen
+	- Taste (fsharpc 2i1.fsx) på terminalen
+	- Taste (mono 2i1.exe) på terminalen

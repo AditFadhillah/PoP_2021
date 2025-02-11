@@ -1,0 +1,9 @@
+module Color
+
+let trunc v =
+ if v < 0
+  return ¨0
+ elif v > 255
+  return 255
+ elif
+  return v

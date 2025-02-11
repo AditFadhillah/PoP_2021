@@ -1,0 +1,1 @@
+let a = 3 in let b = 4 in let x = 5 in let y = a * x + b in  do printfn "%A * %A + %A = %A" a x b (a * x + b); do printfn "%A" y

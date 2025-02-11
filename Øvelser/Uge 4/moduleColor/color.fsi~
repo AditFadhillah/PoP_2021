@@ -1,0 +1,6 @@
+module Color
+
+val trunc 
+val add
+val scale
+val grey

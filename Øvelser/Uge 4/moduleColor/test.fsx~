@@ -1,0 +1,17 @@
+let trunc v =
+ let mutable p = v
+ if v < 0 then
+  p <- 0
+ elif v > 255 then
+  p <- 255
+ p
+
+let c : int
+
+let add (c1 c2): int (r1,g1,b1) : int (r2,g2,b2) : int : int*int*int =
+
+ let r <- (trunc(r1+r2)
+ let g <- trunc(g1+g2)
+ let b <- trunc(b1+b2)
+
+printfn "%A" (add (255,0,0) (0,255,0))

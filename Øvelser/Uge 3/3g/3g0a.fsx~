@@ -1,0 +1,7 @@
+let mutable i = 0
+let mutable s = 0
+if n < 1 then printfn "0"
+while i < n do
+ i <- i + 1
+ s <- i + s
+do printfn "%A" s

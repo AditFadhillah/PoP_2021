@@ -1,0 +1,13 @@
+let f (a : int) (x : int) (b : int) : int = a * x + b
+let y0= f 3 0 4
+printfn "%A" y0
+let y0= f 3 1 4
+printfn "%A" y0
+let y0= f 3 2 4
+printfn "%A" y0
+let y0= f 3 3 4
+printfn "%A" y0
+let y0= f 3 4 4
+printfn "%A" y0
+let y0= f 3 5 4
+printfn "%A" y0
